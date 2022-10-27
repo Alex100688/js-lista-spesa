@@ -14,4 +14,6 @@ while ( i<=shoppingList.length) {
 const liList=document.createElement("li");
 //stampo il mio elemento con innerHtml//
 liList.innerHTML=shoppingList[i];
+//appendo la mia costante shoppinList alla costante ulList//
+ulList.append(liList);
 
