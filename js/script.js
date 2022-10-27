@@ -3,6 +3,7 @@
 let shoppingList=[`Vino`, `Pane`, `Borghetti`, `Pasta`, `Riso`];
 //faccio una querySelector del  id # list//
 const ulList=document.querySelector("list");
+//faccio una variante impostando la i=0//
 let i = 0;
 while ( i<=shoppingList.length) {
     console.log(i)
