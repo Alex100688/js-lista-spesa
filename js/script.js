@@ -12,5 +12,6 @@ while ( i<=shoppingList.length) {
 }
 //creo un elemento(li)//
 const liList=document.createElement("li");
+//stampo il mio elemento con innerHtml//
 liList.innerHTML=shoppingList[i];
 
