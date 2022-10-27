@@ -1,6 +1,7 @@
 "use strict";
 //creo una lista della spesa con array//
 let shoppingList=[`Vino`, `Pane`, `Borghetti`, `Pasta`, `Riso`];
+//faccio una querySelector del  id # list//
 const ulList=document.querySelector("list");
 let i = 0;
 while ( i<=shoppingList.length) {
