@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 56.25rem;
+    margin: auto;
+    text-align: center;
+    
+}
+li:last-child{
+    color: red;
+}
