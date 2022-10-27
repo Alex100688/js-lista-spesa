@@ -10,6 +10,7 @@ while ( i<=shoppingList.length) {
     console.log(i)
     i++;
 }
+//creo un elemento(li)//
 const liList=document.createElement("li");
 liList.innerHTML=shoppingList[i];
 
